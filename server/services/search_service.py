@@ -1,6 +1,6 @@
 from config import Settings
 from tavily import TavilyClient
-from trafilatura import fetch_url, extract
+import trafilatura
 
 setting = Settings()
 
